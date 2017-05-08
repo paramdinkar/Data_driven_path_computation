@@ -44,3 +44,22 @@ Add the below line
 * * * * * /root/smart-ospf/SDN/collectinfo.sh >> /root/smart-ospf/SDN/linkcost.log 2>&1
 
 Your setup is ready
+
+
+#################################################################################################
+#                                                                                               #
+#                                       SDN Case                                                #
+#                                                                                               #
+#################################################################################################
+
+On the controller, go to the SDN folder and do the following:
+1) Go to the reference/configs.conf
+Modify the ethernet interface names and bandwidth for each router as needed. You also need to modify the current parameters.
+2) Run startup.sh script
+Command: sh startup.sh
+3) Add main.sh to crontab
+Command: crontab -e
+Add the following line
+* * * * * /root/SDNCase/main.sh >> /root/SDNCase/sdncase.log 2>&1
+
+Your setup is ready
