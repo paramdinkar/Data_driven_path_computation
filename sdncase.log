@@ -1,0 +1,1320 @@
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:16:05 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 1248266874
+Previous bytes: 0
+Difference: 1248266874
+Bandwidth: 1250000
+Utilization: 100
+For Router router0 Interface eth3
+Current bytes: 6203139180
+Previous bytes: 0
+Difference: 6203139180
+Bandwidth: 
+Utilization: 
+For Router router1 Interface eth1
+Current bytes: 
+Previous bytes: 0
+Difference: 
+Bandwidth: 1250000
+Utilization: 
+For Router router1 Interface eth2
+Current bytes: 
+Previous bytes: 0
+Difference: 
+Bandwidth: 1250000
+Utilization: 
+For Router router1 Interface eth4
+Current bytes: 
+Previous bytes: 0
+Difference: 
+Bandwidth: 
+Utilization: 
+For Router router2 Interface eth1
+Current bytes: 2018327158
+Previous bytes: 0
+Difference: 2018327158
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth2
+Current bytes: 1733787494
+Previous bytes: 0
+Difference: 1733787494
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth3
+Current bytes: 1644226470
+Previous bytes: 0
+Difference: 1644226470
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth4
+Current bytes: 1566682556
+Previous bytes: 0
+Difference: 1566682556
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth1
+Current bytes: 3166732822
+Previous bytes: 0
+Difference: 3166732822
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth4
+Current bytes: 3115283102
+Previous bytes: 0
+Difference: 3115283102
+Bandwidth: 
+Utilization: 
+For Router router3 Interface eth5
+Current bytes: 2281569768
+Previous bytes: 0
+Difference: 2281569768
+Bandwidth: 
+Utilization: 
+For Router router4 Interface eth1
+Current bytes: 1542683320
+Previous bytes: 0
+Difference: 1542683320
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth5
+Current bytes: 3901857170
+Previous bytes: 0
+Difference: 3901857170
+Bandwidth: 
+Utilization: 
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:21:17 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 1993336346
+Previous bytes: 1248266874
+Difference: 745069472
+Bandwidth: 1250000
+Utilization: 100
+For Router router0 Interface eth3
+Current bytes: 7793698248
+Previous bytes: 6203139180
+Difference: 1590559068
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth1
+Current bytes: 
+Previous bytes: 
+Difference: -
+Bandwidth: 1250000
+Utilization: 
+For Router router1 Interface eth2
+Current bytes: 
+Previous bytes: 
+Difference: -
+Bandwidth: 1250000
+Utilization: 
+For Router router1 Interface eth4
+Current bytes: 
+Previous bytes: 
+Difference: -
+Bandwidth: 1250000
+Utilization: 
+For Router router2 Interface eth1
+Current bytes: 2648637566
+Previous bytes: 2018327158
+Difference: 630310408
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth2
+Current bytes: 2269407068
+Previous bytes: 1733787494
+Difference: 535619574
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth3
+Current bytes: 2156342606
+Previous bytes: 1644226470
+Difference: 512116136
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth4
+Current bytes: 2053418932
+Previous bytes: 1566682556
+Difference: 486736376
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth1
+Current bytes: 4162648526
+Previous bytes: 3166732822
+Difference: 995915704
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth4
+Current bytes: 4227711174
+Previous bytes: 3115283102
+Difference: 1112428072
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth5
+Current bytes: 2995345208
+Previous bytes: 2281569768
+Difference: 713775440
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth1
+Current bytes: 2016086152
+Previous bytes: 1542683320
+Difference: 473402832
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth5
+Current bytes: 5115962818
+Previous bytes: 3901857170
+Difference: 1214105648
+Bandwidth: 1250000
+Utilization: 100
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:23:03 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 2294511122
+Previous bytes: 0
+Difference: 2294511122
+Bandwidth: 1250000
+Utilization: 100
+For Router router0 Interface eth3
+Current bytes: 7994590604
+Previous bytes: 0
+Difference: 7994590604
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth1
+Current bytes: 
+Previous bytes: 0
+Difference: 
+Bandwidth: 1250000
+Utilization: 
+For Router router1 Interface eth2
+Current bytes: 
+Previous bytes: 0
+Difference: 
+Bandwidth: 1250000
+Utilization: 
+For Router router1 Interface eth4
+Current bytes: 
+Previous bytes: 0
+Difference: 
+Bandwidth: 1250000
+Utilization: 
+For Router router2 Interface eth1
+Current bytes: 2794638134
+Previous bytes: 0
+Difference: 2794638134
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth2
+Current bytes: 2390881540
+Previous bytes: 0
+Difference: 2390881540
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth3
+Current bytes: 2275475438
+Previous bytes: 0
+Difference: 2275475438
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth4
+Current bytes: 2797034140
+Previous bytes: 0
+Difference: 2797034140
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth1
+Current bytes: 4995407894
+Previous bytes: 0
+Difference: 4995407894
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth4
+Current bytes: 4503685838
+Previous bytes: 0
+Difference: 4503685838
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth5
+Current bytes: 3159850248
+Previous bytes: 0
+Difference: 3159850248
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth1
+Current bytes: 2126511320
+Previous bytes: 0
+Difference: 2126511320
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth5
+Current bytes: 5381086082
+Previous bytes: 0
+Difference: 5381086082
+Bandwidth: 1250000
+Utilization: 100
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:30:49 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 3408283810
+Previous bytes: 0
+Difference: 3408283810
+Bandwidth: 1250000
+Utilization: 100
+For Router router0 Interface eth3
+Current bytes: 8869581322
+Previous bytes: 0
+Difference: 8869581322
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth1
+Current bytes: 3372660152
+Previous bytes: 0
+Difference: 3372660152
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth2
+Current bytes: 4707833242
+Previous bytes: 0
+Difference: 4707833242
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth4
+Current bytes: 5411341156
+Previous bytes: 0
+Difference: 5411341156
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth1
+Current bytes: 3521403726
+Previous bytes: 0
+Difference: 3521403726
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth2
+Current bytes: 3003014502
+Previous bytes: 0
+Difference: 3003014502
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth3
+Current bytes: 2939352302
+Previous bytes: 0
+Difference: 2939352302
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth4
+Current bytes: 3505331268
+Previous bytes: 0
+Difference: 3505331268
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth1
+Current bytes: 5558440574
+Previous bytes: 0
+Difference: 5558440574
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth4
+Current bytes: 5343337686
+Previous bytes: 0
+Difference: 5343337686
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth5
+Current bytes: 3936076608
+Previous bytes: 0
+Difference: 3936076608
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth1
+Current bytes: 2709879896
+Previous bytes: 0
+Difference: 2709879896
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth5
+Current bytes: 6414917034
+Previous bytes: 0
+Difference: 6414917034
+Bandwidth: 1250000
+Utilization: 100
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:32:41 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 3534655650
+Previous bytes: 0
+Difference: 3534655650
+Bandwidth: 1250000
+Utilization: 100
+For Router router0 Interface eth3
+Current bytes: 9218418986
+Previous bytes: 0
+Difference: 9218418986
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth1
+Current bytes: 3498488680
+Previous bytes: 0
+Difference: 3498488680
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth2
+Current bytes: 4899475546
+Previous bytes: 0
+Difference: 4899475546
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth4
+Current bytes: 5636385612
+Previous bytes: 0
+Difference: 5636385612
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth1
+Current bytes: 3652446750
+Previous bytes: 0
+Difference: 3652446750
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth2
+Current bytes: 3129525166
+Previous bytes: 0
+Difference: 3129525166
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth3
+Current bytes: 3044232462
+Previous bytes: 0
+Difference: 3044232462
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth4
+Current bytes: 3605287460
+Previous bytes: 0
+Difference: 3605287460
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth1
+Current bytes: 5759050942
+Previous bytes: 0
+Difference: 5759050942
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth4
+Current bytes: 5538851046
+Previous bytes: 0
+Difference: 5538851046
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth5
+Current bytes: 4081707744
+Previous bytes: 0
+Difference: 4081707744
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth1
+Current bytes: 2806797752
+Previous bytes: 0
+Difference: 2806797752
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth5
+Current bytes: 6656990194
+Previous bytes: 0
+Difference: 6656990194
+Bandwidth: 1250000
+Utilization: 100
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:34:58 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 3534655650
+Previous bytes: 3534655650
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router0 Interface eth3
+Current bytes: 9218418986
+Previous bytes: 9218418986
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth1
+Current bytes: 3498488680
+Previous bytes: 3498488680
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth2
+Current bytes: 4899475546
+Previous bytes: 4899475546
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth4
+Current bytes: 5636385612
+Previous bytes: 5636385612
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth1
+Current bytes: 3652446750
+Previous bytes: 3652446750
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth2
+Current bytes: 3129525166
+Previous bytes: 3129525166
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth3
+Current bytes: 3044232462
+Previous bytes: 3044232462
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth4
+Current bytes: 3605287460
+Previous bytes: 3605287460
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth1
+Current bytes: 5759050942
+Previous bytes: 5759050942
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth4
+Current bytes: 5538851046
+Previous bytes: 5538851046
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth5
+Current bytes: 4081707744
+Previous bytes: 4081707744
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router4 Interface eth1
+Current bytes: 2806797752
+Previous bytes: 2806797752
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router4 Interface eth5
+Current bytes: 6656990194
+Previous bytes: 6656990194
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:35:12 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 3534655650
+Previous bytes: 3534655650
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router0 Interface eth3
+Current bytes: 9218418986
+Previous bytes: 9218418986
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth1
+Current bytes: 3498488680
+Previous bytes: 3498488680
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth2
+Current bytes: 4899475546
+Previous bytes: 4899475546
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth4
+Current bytes: 5636385612
+Previous bytes: 5636385612
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth1
+Current bytes: 3652446750
+Previous bytes: 3652446750
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth2
+Current bytes: 3129525166
+Previous bytes: 3129525166
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth3
+Current bytes: 3044232462
+Previous bytes: 3044232462
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth4
+Current bytes: 3605287460
+Previous bytes: 3605287460
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth1
+Current bytes: 5759050942
+Previous bytes: 5759050942
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth4
+Current bytes: 5538851046
+Previous bytes: 5538851046
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth5
+Current bytes: 4081707744
+Previous bytes: 4081707744
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router4 Interface eth1
+Current bytes: 2806797752
+Previous bytes: 2806797752
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router4 Interface eth5
+Current bytes: 6656990194
+Previous bytes: 6656990194
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 80
+Link cost 8
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:8},
+3 : {1:1,2:1,4:1},
+4 : {2:8,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:36:07 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 3534655650
+Previous bytes: 3534655650
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router0 Interface eth3
+Current bytes: 9218418986
+Previous bytes: 9218418986
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth1
+Current bytes: 3498488680
+Previous bytes: 3498488680
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth2
+Current bytes: 4899475546
+Previous bytes: 4899475546
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth4
+Current bytes: 5636385612
+Previous bytes: 5636385612
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth1
+Current bytes: 3652446750
+Previous bytes: 3652446750
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth2
+Current bytes: 3129525166
+Previous bytes: 3129525166
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth3
+Current bytes: 3044232462
+Previous bytes: 3044232462
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth4
+Current bytes: 3605287460
+Previous bytes: 3605287460
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth1
+Current bytes: 5759050942
+Previous bytes: 5759050942
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth4
+Current bytes: 5538851046
+Previous bytes: 5538851046
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth5
+Current bytes: 4081707744
+Previous bytes: 4081707744
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router4 Interface eth1
+Current bytes: 2806797752
+Previous bytes: 2806797752
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router4 Interface eth5
+Current bytes: 6656990194
+Previous bytes: 6656990194
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+Calculating link cost from historical db
+For Link link0
+Average utilization 11
+Link cost 2
+For Link link1
+Average utilization 11
+Link cost 2
+For Link link2
+Average utilization 11
+Link cost 2
+For Link link3
+Average utilization 11
+Link cost 2
+For Link link4
+Average utilization 11
+Link cost 2
+For Link link5
+Average utilization 50
+Link cost 5
+For Link link6
+Average utilization 11
+Link cost 2
+Creating graph for APSP algorithm
+{
+0 : {2:2,1:2},
+1 : {2:2,3:2,0:2},
+2 : {0:2,1:2,3:2,4:5},
+3 : {1:2,2:2,4:2},
+4 : {2:5,3:2},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:36:11 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 3534655650
+Previous bytes: 3534655650
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router0 Interface eth3
+Current bytes: 9218418986
+Previous bytes: 9218418986
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth1
+Current bytes: 3498488680
+Previous bytes: 3498488680
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth2
+Current bytes: 4899475546
+Previous bytes: 4899475546
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router1 Interface eth4
+Current bytes: 5636385612
+Previous bytes: 5636385612
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth1
+Current bytes: 3652446750
+Previous bytes: 3652446750
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth2
+Current bytes: 3129525166
+Previous bytes: 3129525166
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth3
+Current bytes: 3044232462
+Previous bytes: 3044232462
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router2 Interface eth4
+Current bytes: 3605287460
+Previous bytes: 3605287460
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth1
+Current bytes: 5759050942
+Previous bytes: 5759050942
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth4
+Current bytes: 5538851046
+Previous bytes: 5538851046
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router3 Interface eth5
+Current bytes: 4081707744
+Previous bytes: 4081707744
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router4 Interface eth1
+Current bytes: 2806797752
+Previous bytes: 2806797752
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+For Router router4 Interface eth5
+Current bytes: 6656990194
+Previous bytes: 6656990194
+Difference: 0
+Bandwidth: 1250000
+Utilization: 0
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 18:49:16 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 3870800130
+Previous bytes: 0
+Difference: 3870800130
+Bandwidth: 1250000
+Utilization: 100
+For Router router0 Interface eth3
+Current bytes: 9607013626
+Previous bytes: 0
+Difference: 9607013626
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth1
+Current bytes: 3870074888
+Previous bytes: 0
+Difference: 3870074888
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth2
+Current bytes: 5095197394
+Previous bytes: 0
+Difference: 5095197394
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth4
+Current bytes: 5886384004
+Previous bytes: 0
+Difference: 5886384004
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth1
+Current bytes: 3807449934
+Previous bytes: 0
+Difference: 3807449934
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth2
+Current bytes: 3275829086
+Previous bytes: 0
+Difference: 3275829086
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth3
+Current bytes: 3390775134
+Previous bytes: 0
+Difference: 3390775134
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth4
+Current bytes: 3722017444
+Previous bytes: 0
+Difference: 3722017444
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth1
+Current bytes: 6193607358
+Previous bytes: 0
+Difference: 6193607358
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth4
+Current bytes: 5747895854
+Previous bytes: 0
+Difference: 5747895854
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth5
+Current bytes: 4257512072
+Previous bytes: 0
+Difference: 4257512072
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth1
+Current bytes: 2941798520
+Previous bytes: 0
+Difference: 2941798520
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth5
+Current bytes: 6908353530
+Previous bytes: 0
+Difference: 6908353530
+Bandwidth: 1250000
+Utilization: 100
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
+Collecting stats from all the routers
+Calculating link costs
+Fri May  5 19:04:09 EDT 2017
+Calculating utilization and adding to historical db
+For Router router0 Interface eth1
+Current bytes: 3870800130
+Previous bytes: 0
+Difference: 3870800130
+Bandwidth: 1250000
+Utilization: 100
+For Router router0 Interface eth3
+Current bytes: 9607013626
+Previous bytes: 0
+Difference: 9607013626
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth1
+Current bytes: 3870074888
+Previous bytes: 0
+Difference: 3870074888
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth2
+Current bytes: 5095197394
+Previous bytes: 0
+Difference: 5095197394
+Bandwidth: 1250000
+Utilization: 100
+For Router router1 Interface eth4
+Current bytes: 5886384004
+Previous bytes: 0
+Difference: 5886384004
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth1
+Current bytes: 3807449934
+Previous bytes: 0
+Difference: 3807449934
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth2
+Current bytes: 3275829086
+Previous bytes: 0
+Difference: 3275829086
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth3
+Current bytes: 3390775134
+Previous bytes: 0
+Difference: 3390775134
+Bandwidth: 1250000
+Utilization: 100
+For Router router2 Interface eth4
+Current bytes: 3722017444
+Previous bytes: 0
+Difference: 3722017444
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth1
+Current bytes: 6193607358
+Previous bytes: 0
+Difference: 6193607358
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth4
+Current bytes: 5747901832
+Previous bytes: 0
+Difference: 5747901832
+Bandwidth: 1250000
+Utilization: 100
+For Router router3 Interface eth5
+Current bytes: 4257512072
+Previous bytes: 0
+Difference: 4257512072
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth1
+Current bytes: 2941804498
+Previous bytes: 0
+Difference: 2941804498
+Bandwidth: 1250000
+Utilization: 100
+For Router router4 Interface eth5
+Current bytes: 6908353530
+Previous bytes: 0
+Difference: 6908353530
+Bandwidth: 1250000
+Utilization: 100
+Calculating link cost from historical db
+For Link link0
+Average utilization 0
+Link cost 1
+For Link link1
+Average utilization 0
+Link cost 1
+For Link link2
+Average utilization 0
+Link cost 1
+For Link link3
+Average utilization 0
+Link cost 1
+For Link link4
+Average utilization 0
+Link cost 1
+For Link link5
+Average utilization 0
+Link cost 1
+For Link link6
+Average utilization 0
+Link cost 1
+Creating graph for APSP algorithm
+{
+0 : {2:1,1:1},
+1 : {2:1,3:1,0:1},
+2 : {0:1,1:1,3:1,4:1},
+3 : {1:1,2:1,4:1},
+4 : {2:1,3:1},
+}
+Running All-pair shortest path algorithm
+Updating flow entries in the routers
